@@ -1,0 +1,26 @@
+.SearchResult{
+  width: 95%;
+  margin: 0 auto;
+}
+.return-main{
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.return-main span{
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+.return-main span img{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  transform: rotate(180deg);
+}
+.return-main h2{
+  margin: 0 0 0 8px;
+}
+.SearchResult h3{
+  margin: 12px 0;
+}

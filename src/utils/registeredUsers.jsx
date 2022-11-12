@@ -1,0 +1,3 @@
+const registeredUsers = []
+
+export { registeredUsers };

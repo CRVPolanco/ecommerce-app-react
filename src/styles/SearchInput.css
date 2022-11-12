@@ -1,0 +1,37 @@
+.Search{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 75%;
+  height: 38px;
+  margin: 40px auto 20px auto;
+  border: 1px solid var(--very-light-pink);
+  border-radius: 10px;
+
+}
+.Search a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 28px;
+  width: 28px;
+  margin: 0 12px 0 4px;
+  cursor: pointer;
+}
+.Search input{
+  width: 100%;
+  height: 100%;
+  margin-right: 8px;
+  border: none;
+  border-right: 1px solid var(--very-light-pink);
+  background-color: transparent;
+  padding: 0 16px;
+}
+.Search input:focus{
+  outline: none;
+}
+.Search span img{
+  width: 23px;
+  height: 23px;
+  object-fit: contain;
+}
